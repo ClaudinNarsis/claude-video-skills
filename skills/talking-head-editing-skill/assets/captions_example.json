@@ -1,0 +1,333 @@
+{
+ "_note": "EXAMPLE (Jio reel). Edit phrases/times. Keep lines in y 1215-1520, clear of any burnt-in top banner and the lower watermark. Colours are RRGGBB.",
+ "groups": [
+  {
+   "start": 0,
+   "end": 3.6,
+   "lines": [
+    {
+     "y": 1240,
+     "delay": 0,
+     "rot": -5,
+     "runs": [
+      {
+       "font": "Marker Felt",
+       "size": 160,
+       "fill": "#FFFFFF",
+       "outline": "#000000",
+       "bord": 9,
+       "text": "Don't pay"
+      }
+     ]
+    },
+    {
+     "y": 1390,
+     "delay": 0.12,
+     "rot": 4,
+     "runs": [
+      {
+       "font": "Impact",
+       "size": 135,
+       "fill": "#FFD400",
+       "outline": "#B01C20",
+       "bord": 9,
+       "text": "₹10,000–15,000",
+       "flash": "#FFD400",
+       "flash_d": 0.12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 3.7,
+   "end": 6.2,
+   "lines": [
+    {
+     "y": 1260,
+     "delay": 0,
+     "rot": -5,
+     "runs": [
+      {
+       "font": "Montserrat Black",
+       "size": 270,
+       "fill": "#FFD400",
+       "outline": "#000000",
+       "bord": 12,
+       "text": "FREE",
+       "flash": "#FFD400",
+       "flash_d": 0
+      }
+     ]
+    },
+    {
+     "y": 1450,
+     "delay": 0.1,
+     "rot": 3,
+     "runs": [
+      {
+       "font": "Avenir Next Condensed Heavy",
+       "size": 118,
+       "fill": "#FFFFFF",
+       "outline": "#FF2D95",
+       "bord": 9,
+       "text": "AI COURSES "
+      },
+      {
+       "font": "Marker Felt",
+       "size": 112,
+       "fill": "#FFD400",
+       "outline": "#000000",
+       "bord": 8,
+       "text": "from Jio"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 9.8,
+   "end": 12.8,
+   "lines": [
+    {
+     "y": 1215,
+     "delay": 0,
+     "rot": -5,
+     "runs": [
+      {
+       "font": "Avenir Next Condensed Heavy",
+       "size": 125,
+       "fill": "#FFFFFF",
+       "outline": "#FF2D95",
+       "bord": 9,
+       "text": "JIO INSTITUTE'S"
+      }
+     ]
+    },
+    {
+     "y": 1370,
+     "delay": 0.1,
+     "rot": -4,
+     "runs": [
+      {
+       "font": "Impact",
+       "size": 165,
+       "fill": "#FFD400",
+       "outline": "#FF2D55",
+       "bord": 10,
+       "text": "AI CLASSROOM",
+       "flash": "#FFD400",
+       "flash_d": 0.12
+      }
+     ]
+    },
+    {
+     "y": 1510,
+     "delay": 0.22,
+     "rot": 3,
+     "runs": [
+      {
+       "font": "Marker Felt",
+       "size": 112,
+       "fill": "#FFFFFF",
+       "outline": "#000000",
+       "bord": 8,
+       "text": "program"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 13.4,
+   "end": 14.2,
+   "lines": [
+    {
+     "y": 1330,
+     "delay": 0,
+     "rot": -4,
+     "runs": [
+      {
+       "font": "Impact",
+       "size": 205,
+       "fill": "#FFD400",
+       "outline": "#000000",
+       "bord": 10,
+       "text": "AI AGENTS",
+       "flash": "#FFD400",
+       "flash_d": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 14.2,
+   "end": 15.3,
+   "lines": [
+    {
+     "y": 1280,
+     "delay": 0,
+     "rot": -5,
+     "runs": [
+      {
+       "font": "Avenir Next Condensed Heavy",
+       "size": 150,
+       "fill": "#FFFFFF",
+       "outline": "#FF2D95",
+       "bord": 10,
+       "text": "PROMPT"
+      }
+     ]
+    },
+    {
+     "y": 1430,
+     "delay": 0.1,
+     "rot": 3,
+     "runs": [
+      {
+       "font": "Marker Felt",
+       "size": 150,
+       "fill": "#FFD400",
+       "outline": "#000000",
+       "bord": 9,
+       "text": "engineering",
+       "flash": "#FFD400",
+       "flash_d": 0.1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 15.3,
+   "end": 16.0,
+   "lines": [
+    {
+     "y": 1330,
+     "delay": 0,
+     "rot": 4,
+     "runs": [
+      {
+       "font": "Montserrat Black",
+       "size": 190,
+       "fill": "#FF5A1F",
+       "outline": "#FFFFFF",
+       "bord": 10,
+       "text": "AI TOOLS",
+       "flash": "#FF5A1F",
+       "flash_d": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 23.2,
+   "end": 26.7,
+   "lines": [
+    {
+     "y": 1250,
+     "delay": 0,
+     "rot": -5,
+     "runs": [
+      {
+       "font": "Impact",
+       "size": 250,
+       "fill": "#FF2D55",
+       "outline": "#FFFFFF",
+       "bord": 10,
+       "text": "NO",
+       "flash": "#FF2D55",
+       "flash_d": 0
+      },
+      {
+       "font": "Impact",
+       "size": 250,
+       "fill": "#FFFFFF",
+       "outline": "#000000",
+       "bord": 10,
+       "text": " AI"
+      }
+     ]
+    },
+    {
+     "y": 1420,
+     "delay": 0.14,
+     "rot": 3,
+     "runs": [
+      {
+       "font": "Marker Felt",
+       "size": 118,
+       "fill": "#FFD400",
+       "outline": "#000000",
+       "bord": 8,
+       "text": "experience needed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "start": 30.2,
+   "end": 32.6,
+   "lines": [
+    {
+     "y": 1215,
+     "delay": 0,
+     "rot": -5,
+     "runs": [
+      {
+       "font": "Avenir Next Condensed Heavy",
+       "size": 150,
+       "fill": "#FFFFFF",
+       "outline": "#000000",
+       "bord": 10,
+       "text": "COMMENT"
+      }
+     ]
+    },
+    {
+     "y": 1370,
+     "delay": 0.1,
+     "rot": -4,
+     "runs": [
+      {
+       "font": "Impact",
+       "size": 270,
+       "fill": "#FFD400",
+       "outline": "#FF2D55",
+       "bord": 11,
+       "text": "JIO",
+       "flash": "#FFD400",
+       "flash_d": 0.12
+      }
+     ]
+    },
+    {
+     "y": 1515,
+     "delay": 0.22,
+     "rot": 3,
+     "runs": [
+      {
+       "font": "Marker Felt",
+       "size": 112,
+       "fill": "#FFFFFF",
+       "outline": "#000000",
+       "bord": 8,
+       "text": "for the "
+      },
+      {
+       "font": "Marker Felt",
+       "size": 112,
+       "fill": "#FF5A1F",
+       "outline": "#000000",
+       "bord": 8,
+       "text": "LINK"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

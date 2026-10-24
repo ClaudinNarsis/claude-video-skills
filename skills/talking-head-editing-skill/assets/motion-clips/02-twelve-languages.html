@@ -1,0 +1,38 @@
+<title>02 Twelve languages</title>
+<style>
+.pt{position:absolute;transform:translate(-50%,-50%);left:0;top:0;white-space:nowrap;font-weight:600;letter-spacing:-.03em}
+.lp{position:absolute;width:190px;height:84px;border-radius:42px;background:#F4F2EE;border:2px solid #D9D6D0;box-sizing:border-box}
+.lp i{position:absolute;left:30px;top:33px;width:18px;height:18px;border-radius:9px;background:#FF5A1F}
+.lp b{position:absolute;left:62px;top:35px;width:96px;height:14px;border-radius:7px;background:#D9D6D0}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lnum"><div class="pt" style="font-size:120px;color:#fff">12</div></div>
+  <div class="L" id="Lgrid">
+    <div class="a" style="left:-390px;top:-194px;font-size:44px;font-weight:600;letter-spacing:-.025em;white-space:nowrap">12 Indian languages</div>
+    <div id="cells"></div>
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const cells=[];
+for(let i=0;i<12;i++){
+  const r=Math.floor(i/4),c=i%4,d=document.createElement('div');
+  d.className='lp';d.style.left=(-404+c*206)+'px';d.style.top=(-92+r*100)+'px';
+  d.innerHTML='<i></i><b></b>';$('cells').appendChild(d);cells.push([d,0.9+r*0.28+c*0.04]);
+}
+M.scene({
+  W:1080,H:1920,T:2.6,bg:'#E9E7E2',center:[540,960],intro:0.11,
+  SH:{
+    num:{w:300,h:190,r:95,bg:'#0B0B0B',cam:2.1},
+    grid:{w:880,h:460,r:48,bg:'#FFFFFF',cam:1.15},
+  },
+  start:'num', SEQ:[[0.62,'grid']],
+  layers:[
+    {el:'Lnum',tin:0.11,tout:0.62},
+    {el:'Lgrid',tin:0.62,tout:null,update:(t)=>{
+      for(const [d,at] of cells){M.apply(d,M.vis(t,at,null,{din:0,lin:0.18}));}
+    }},
+  ],
+  cursor:{size:44,clicks:[0.62],keys:[[0,260,300],[0.45,110,50],[0.7,110,50],[1.4,300,330]]},
+});
+</script>

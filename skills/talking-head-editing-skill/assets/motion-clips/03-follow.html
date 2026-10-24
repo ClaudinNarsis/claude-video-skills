@@ -1,0 +1,27 @@
+<title>03 Follow tap</title>
+<style>
+.fr{position:absolute;left:0;top:0;white-space:nowrap;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center;gap:14px}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lf"><div class="fr" id="f1" style="font-size:62px;color:#fff;transform:translate(-50%,-50%)">Follow</div></div>
+  <div class="L" id="Lg"><div class="fr" id="f2" style="font-size:58px;color:#0B0B0B;transform:translate(-50%,-50%)"><span id="chk"></span>Following</div></div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+$('chk').innerHTML=M.icon('check',54,'#FF5A1F',5);
+const press=M.track(1,[[0.60,0.88,M.FAST],[0.68,1,M.FAST]]);
+M.scene({
+  W:1080,H:1920,T:2.0,bg:null,center:[540,1350],intro:0.05,
+  SH:{
+    follow:{w:360,h:128,r:64,bg:'#FF5A1F',cam:1.5},
+    following:{w:480,h:128,r:64,bg:'#FFFFFF',cam:1.5},
+    gone:{w:2,h:2,r:1,bg:'#FFFFFF',cam:1.5},
+  },
+  start:'follow', SEQ:[[0.68,'following'],[1.30,'gone']],
+  layers:[
+    {el:'Lf',tin:0.05,tout:0.68,update:(t)=>{$('f1').style.transform=`translate(-50%,-50%) scale(${press(t).toFixed(4)})`;}},
+    {el:'Lg',tin:0.68,tout:1.30},
+  ],
+  cursor:{size:52,clicks:[0.60],keys:[[0,300,300],[0.4,70,26],[0.58,70,26],[0.9,160,150],[1.5,260,240]]},
+});
+</script>
